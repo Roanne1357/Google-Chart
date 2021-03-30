@@ -1,0 +1,41 @@
+/* 노말라이즈 */
+body,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* lib */
+html {
+  background-color: gray;
+}
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  margin: 0;
+}
+/* 헤더 */
+.header {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* 차트 */
+.chart {
+  width: 100%;
+  min-height: 450px;
+  max-width: 1400px;
+}
+.chart > div text {
+  transform: rotate(0);
+}
+
+#chart_div > * {
+  background-color: gray;
+}
