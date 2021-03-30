@@ -5,7 +5,7 @@ var temp_max = [];
 var weatherDate = [];
 
 $.ajax({
-  url: 'http://api.openweathermap.org/data/2.5/forecast?q=seoul&appid=02c9e65f81988386ebf7ebf7b5557d2c&units=metric&lang=kr',
+  url: 'https://api.openweathermap.org/data/2.5/forecast?q=seoul&appid=02c9e65f81988386ebf7ebf7b5557d2c&units=metric&lang=kr',
   async: false,
   dataType: 'json',
   success: function (json) {
